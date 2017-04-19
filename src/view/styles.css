@@ -1,0 +1,105 @@
+.label {
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: Black;
+    -fx-opacity: 0.6;
+}
+
+
+
+.label-header {
+    -fx-font-size: 32pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+
+.menu-bar {
+    -fx-background-color: derive(#b3e4f5,20%);
+}
+
+.context-menu {
+    -fx-background-color: derive(#b3e4f5,50%);
+}
+
+.menu-bar .label {
+	
+    -fx-font-size: 14pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: black;
+    -fx-opacity: 0.9;
+}
+.tab{
+	-fx-background-color: derive(#270b3d,120%);
+	 -fx-font-size: 14pt;
+   -fx-font-family: "Courier New";
+    -fx-text-fill: Black;
+    
+}
+.tab-pane 
+{
+-fx-background-color:  derive(b3e4f5, 75%);
+}
+
+.tab:selected .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;  
+}
+.tab .tab-label { 
+  
+    -fx-font-weight: bold;  
+}
+.menu .left-container {
+    -fx-background-color: black;
+}
+
+.text-field {
+    -fx-font-size: 12pt;
+    -fx-font-family: "Segoe UI Semibold";
+}
+
+.button {
+    -fx-padding: 5 22 5 22;   
+    -fx-border-color: #b3e4f5;
+    -fx-border-width: 2;
+    -fx-background-radius: 0;
+    -fx-background-color: #270b3d;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 11pt;
+    -fx-text-fill: #d8d8d8;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+.button:hover {
+    -fx-background-color: #8E6DA8;
+}
+
+.button:pressed, .button:default:hover:pressed {
+  -fx-background-color: white;
+  -fx-text-fill: #1d1d1d;
+}
+
+.button:focused {
+    -fx-border-color: white, white;
+    -fx-border-width: 1, 1;
+    -fx-border-style: solid, segments(1, 1);
+    -fx-border-radius: 0, 0;
+    -fx-border-insets: 1 1 1 1, 0;
+}
+
+
+
+.button:default {
+    -fx-background-color: -fx-focus-color;
+    -fx-text-fill: #ffffff;
+}
+
+.button:default:hover {
+    -fx-background-color: derive(-fx-focus-color,30%);
+}
+.text-area .content{
+        -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: Black;
+    -fx-font-size: 21pt;
+  }

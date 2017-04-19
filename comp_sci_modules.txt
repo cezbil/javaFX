@@ -1,0 +1,74 @@
+CTEC3903
+Software Development Methods
+15 
+true
+
+IMAT3451
+Computing Project
+30
+true
+
+CTEC3902
+Rigorous Systems
+15
+false
+
+CTEC3426
+Telematics
+15
+false
+
+CTEC3604
+Multi-service Networks
+30
+false
+
+CTEC3110
+Secure Web Application Development
+15
+false
+
+CTEC3410
+Web Application Penetration Testing
+15
+false
+
+CTEC3904
+Functional Software Development
+15
+false
+
+CTEC3905
+Front-End Web Development
+15
+false
+
+IMAT3104
+Database Management and Programming
+15
+false
+
+IMAT3404
+Mobile Robotics
+15
+false
+
+IMAT3406
+Fuzzy Logic & Knowledge Based Systems
+15
+false
+
+IMAT3426
+Information Systems Strategy & Services
+30
+false
+
+IMAT3429
+Privacy and Data Protection
+15
+false
+
+IMAT3902
+Computing Ethics
+15
+false
